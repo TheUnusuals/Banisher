@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Playground/Deividas/Scenes/MainMenu.unity
+    guid: 2e48f0b84cbc09c4382cd54b30ddd166
+  - enabled: 1
+    path: Assets/Playground/Deividas/Scenes/Level1.unity
+    guid: 086d8989aa1cf2142abbc8a4541c19eb
+  - enabled: 1
+    path: Assets/Playground/Deividas/Scenes/Level2.unity
+    guid: fff80efdc03bbd1468ae6bd3c6d3e7c2
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: a5509b5cd9ba30f4e9bdc26c36909d62,
       type: 2}
