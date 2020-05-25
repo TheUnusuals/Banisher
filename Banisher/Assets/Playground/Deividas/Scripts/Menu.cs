@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using TheUnusuals.Banisher.BanisherPlayground.Scripts.Energy;
 using TheUnusuals.Banisher.ExtreStuff;
 using TMPro;
@@ -97,6 +98,11 @@ public class Menu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             ShowLevelCompletedMenu();
+        }
+
+        if (pauseGame || gameEnded)
+        {
+            Physics.SyncTransforms();
         }
     }
 

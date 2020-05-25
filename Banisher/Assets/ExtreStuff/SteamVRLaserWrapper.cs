@@ -12,6 +12,10 @@ namespace TheUnusuals.Banisher.ExtreStuff
         private void Awake()
         {
             steamVrLaserPointer = gameObject.GetComponent<SteamVR_LaserPointer>();
+        }
+
+        private void Start()
+        {
             steamVrLaserPointer.PointerIn += OnPointerIn;
             steamVrLaserPointer.PointerOut += OnPointerOut;
             steamVrLaserPointer.PointerClick += OnPointerClick;

@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 775206107777479840}
   - component: {fileID: 775206107777479841}
   - component: {fileID: 797765126}
-  - component: {fileID: 797765124}
   - component: {fileID: 797765125}
+  - component: {fileID: 797765124}
   m_Layer: 5
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -145,21 +145,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 168.2, y: 69.4, z: 0.065972686}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &797765124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775206107777479855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHandClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &797765125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +196,21 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &797765124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775206107777479855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &775206107883203929
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,8 +691,8 @@ GameObject:
   - component: {fileID: 775206107976514610}
   - component: {fileID: 775206107976514611}
   - component: {fileID: 797765109}
-  - component: {fileID: 797765107}
   - component: {fileID: 797765108}
+  - component: {fileID: 797765107}
   m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -823,21 +823,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 108.93514, y: 32.124718, z: 0.065972686}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &797765107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775206107976514609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHandClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &797765108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -889,6 +874,21 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &797765107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775206107976514609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &775206108025917071
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,8 +902,8 @@ GameObject:
   - component: {fileID: 775206108025917056}
   - component: {fileID: 775206108025917057}
   - component: {fileID: 797765103}
-  - component: {fileID: 797765101}
   - component: {fileID: 797765102}
+  - component: {fileID: 797765101}
   m_Layer: 5
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -1034,21 +1034,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 163.96295, y: 69.06179, z: 0.065972686}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &797765101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775206108025917071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHandClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &797765102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,6 +1085,21 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &797765101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775206108025917071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &775206108067728826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,8 +1268,8 @@ GameObject:
   - component: {fileID: 775206108259184249}
   - component: {fileID: 775206108259184230}
   - component: {fileID: 797765129}
-  - component: {fileID: 797765127}
   - component: {fileID: 797765128}
+  - component: {fileID: 797765127}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -1400,21 +1400,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 108.93514, y: 32.124718, z: 0.065972686}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &797765127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775206108259184228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHandClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &797765128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1466,6 +1451,21 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &797765127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775206108259184228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &775206108457337293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,8 +1634,8 @@ GameObject:
   - component: {fileID: 775206108768427962}
   - component: {fileID: 775206108768427963}
   - component: {fileID: 797765123}
-  - component: {fileID: 797765121}
   - component: {fileID: 797765122}
+  - component: {fileID: 797765121}
   m_Layer: 5
   m_Name: NextLevelButton
   m_TagString: Untagged
@@ -1766,21 +1766,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 140.3, y: 39.6, z: 0.065972686}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &797765121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775206108768427961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHandClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &797765122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1832,6 +1817,21 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &797765121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775206108768427961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &775206108928585634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,8 +1845,8 @@ GameObject:
   - component: {fileID: 775206108928585639}
   - component: {fileID: 775206108928585636}
   - component: {fileID: 797765117}
-  - component: {fileID: 797765115}
   - component: {fileID: 797765116}
+  - component: {fileID: 797765115}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -1977,21 +1977,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 108.93514, y: 32.124718, z: 0.065972686}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &797765115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775206108928585634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHandClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &797765116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2043,6 +2028,21 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &797765115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775206108928585634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &775206108997014174
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,8 +2095,8 @@ GameObject:
   - component: {fileID: 775206109050989986}
   - component: {fileID: 775206109050989987}
   - component: {fileID: 797765114}
-  - component: {fileID: 797765112}
   - component: {fileID: 797765113}
+  - component: {fileID: 797765112}
   m_Layer: 5
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -2227,21 +2227,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 167.79, y: 67.5, z: 0.065972686}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &797765112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775206109050989985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHandClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &797765113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2293,6 +2278,21 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &797765112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775206109050989985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &775206109105906791
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,7 +3496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.013, y: 2}
+  m_AnchoredPosition: {x: 0.013000488, y: 2}
   m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &775206109684607364
@@ -3703,8 +3703,8 @@ GameObject:
   - component: {fileID: 775206109737731221}
   - component: {fileID: 775206109737731218}
   - component: {fileID: 797765106}
-  - component: {fileID: 797765104}
   - component: {fileID: 797765105}
+  - component: {fileID: 797765104}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -3835,21 +3835,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 108.93514, y: 32.124718, z: 0.065972686}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &797765104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775206109737731216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHandClick:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &797765105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3901,3 +3886,18 @@ MonoBehaviour:
   handFollowTransform: 1
   highlightOnHover: 1
   hideHighlight: []
+--- !u!114 &797765104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775206109737731216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cd2ef2dd3d5d64e96af4420220d1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandClick:
+    m_PersistentCalls:
+      m_Calls: []

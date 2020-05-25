@@ -5431,6 +5431,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 726732355}
     m_Modifications:
+    - target: {fileID: 147709583642795401, guid: 764474f90c009fb4c84e4be12106ceab,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.0000012652016
+      objectReference: {fileID: 0}
+    - target: {fileID: 147709583642795401, guid: 764474f90c009fb4c84e4be12106ceab,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.38872382
+      objectReference: {fileID: 0}
     - target: {fileID: 596621398401489164, guid: 764474f90c009fb4c84e4be12106ceab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5490,6 +5500,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ActiveRagdollNinja (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617458329458369300, guid: 764474f90c009fb4c84e4be12106ceab,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.2534346
+      objectReference: {fileID: 0}
+    - target: {fileID: 2617458329458369300, guid: 764474f90c009fb4c84e4be12106ceab,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.0069878856
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308363654689507054, guid: 764474f90c009fb4c84e4be12106ceab,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.00000090850506
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308363654689507054, guid: 764474f90c009fb4c84e4be12106ceab,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.3887239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4476660833463894983, guid: 764474f90c009fb4c84e4be12106ceab,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.00000044661743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4476660833463894983, guid: 764474f90c009fb4c84e4be12106ceab,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.0000010711112
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 764474f90c009fb4c84e4be12106ceab, type: 3}
@@ -8368,6 +8408,16 @@ PrefabInstance:
     - target: {fileID: 1932555860778747696, guid: dac90fe86b5260d449fb5f9a7898af86,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2405278786588226582, guid: dac90fe86b5260d449fb5f9a7898af86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235164144306205645, guid: dac90fe86b5260d449fb5f9a7898af86,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6160057045421034777, guid: dac90fe86b5260d449fb5f9a7898af86,
