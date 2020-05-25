@@ -32,5 +32,13 @@ namespace Valve.VR
                 return SteamVR_Actions.banisher_banish;
             }
         }
+        
+        public virtual SteamVR_Action_Boolean pause
+        {
+            get
+            {
+                return SteamVR_Actions.banisher_pause;
+            }
+        }
     }
 }

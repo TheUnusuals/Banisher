@@ -71,6 +71,14 @@ namespace TheUnusuals.Banisher.BanisherPlayground.Scripts.PhysicsAndOther {
             get => movementPidController.Target;
         }
 
+        public VisEnergy VisEnergy
+        {
+            get => visEnergy;
+            set => visEnergy = value;
+        }
+
+        public bool IsAlive => visEnergy.Energy > minVisEnergyRequired;
+
         private void Awake() {
             if (!visEnergy) visEnergy = GetComponent<VisEnergy>();
             if (!seeableManager) seeableManager = SeeableManager.GetInstance();
