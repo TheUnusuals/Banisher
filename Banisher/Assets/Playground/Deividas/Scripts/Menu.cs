@@ -23,6 +23,8 @@ public class Menu : MonoBehaviour
     public AudioSource levelMusic;
 
     public AudioSource pauseMusic;
+    public AudioSource gameOverMusic;
+    public AudioSource levelCompletedMusic;
 
     public SteamVR_Action_Boolean pauseButton;
 
@@ -149,6 +151,8 @@ public class Menu : MonoBehaviour
         timeLeftText.text = $"Time left: {totalLevelTime}";
         EnableComponents();
         PauseLevelMusic();
+        levelCompletedMusic.Play();
+        banishManager.ExitExsilium();
     }
 
     public void NextLevel()
@@ -165,6 +169,8 @@ public class Menu : MonoBehaviour
         PauseTimeScale();
         EnableComponents();
         PauseLevelMusic();
+        gameOverMusic.Play();
+        banishManager.ExitExsilium();
     }
 
     private void PauseLevelMusic()

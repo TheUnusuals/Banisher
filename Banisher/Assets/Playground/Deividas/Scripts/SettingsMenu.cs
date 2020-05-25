@@ -17,6 +17,16 @@ public class SettingsMenu : MonoBehaviour {
         MuteAudio(mute);
     }
 
+    public void AdjustMusicVolume(float amount)
+    {
+        SetMusicVolume(musicSlider.value + amount);
+    }
+
+    public void AdjustSoundFxVolume(float amount)
+    {
+        SetSoundFxVolume(musicSlider.value + amount);
+    }
+
     public void SetMusicVolume(float slider) {
         musicSlider.value = slider;
         audioMixer.SetFloat("musicVolume", slider);

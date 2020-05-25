@@ -1684,9 +1684,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b6ed929df4e4bb2a9077d731090087f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energy: 100
+  energy: 50
   minEnergy: 0
-  maxEnergy: 100
+  maxEnergy: 50
   onChange:
     m_PersistentCalls:
       m_Calls: []
