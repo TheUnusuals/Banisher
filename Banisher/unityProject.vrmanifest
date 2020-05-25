@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.banisher.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Mantas\\Desktop\\KTU\\Zaidimai\\Banisher2\\Banisher\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Banisher [Testing]"
+        }
+      }
+    }
+  ]
+}
