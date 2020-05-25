@@ -5969,11 +5969,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 775206108189957871, guid: dac90fe86b5260d449fb5f9a7898af86,
         type: 3}
-      propertyPath: nextLevelName
-      value: MainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 775206108189957871, guid: dac90fe86b5260d449fb5f9a7898af86,
-        type: 3}
       propertyPath: levelMusic
       value: 
       objectReference: {fileID: 460141601}
